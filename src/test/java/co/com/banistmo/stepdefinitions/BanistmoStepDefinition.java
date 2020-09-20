@@ -31,6 +31,7 @@ public class BanistmoStepDefinition {
     public void the_user_search_the_infomation_travel() throws Throwable {
         theActorInTheSpotlight().attemptsTo(
                 WritingBar.SearchBar()
+
         );
 
 
